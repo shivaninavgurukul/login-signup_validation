@@ -1,0 +1,72 @@
+/* Shared Styles for Login and Signup Pages */
+.signup-container,
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.sidebar {
+  width: 40%;
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.sidebar h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.form-container {
+  width: 60%;
+  padding: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
